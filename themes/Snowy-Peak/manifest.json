@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Snowy Peak",
+  "description": "A crisp light-themed image featuring a mountain peak shrouded in mist and snow.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [220, 230, 235],
+
+      "frame": [180, 200, 215],
+      "frame_inactive": [180, 200, 215],
+      "background_tab": [180, 200, 215],
+      "button_background": [180, 200, 215],
+      "omnibox_background": [180, 200, 215],
+
+      "tab_text": [40, 45, 50],
+      "omnibox_text": [40, 45, 50],
+      "bookmark_text": [40, 45, 50],
+      "toolbar_button_icon": [40, 45, 50],
+
+      "ntp_link": [70, 90, 110],
+      "ntp_background": [220, 225, 230],
+      "tab_background_text": [45, 55, 65],
+      "tab_background_text_inactive": [45, 55, 65]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

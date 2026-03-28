@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Ascending Balloons",
+  "description": "A serene view of hot air balloons drifting high into the sky.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [1, 149, 167],
+
+      "frame": [0, 125, 145],
+      "frame_inactive": [0, 125, 145],
+      "background_tab": [0, 125, 145],
+      "button_background": [0, 125, 145],
+      "omnibox_background": [0, 110, 130],
+
+      "tab_text": [248,248,248],
+      "omnibox_text": [248,248,248],
+      "caption_text": [248,248,248],
+      "bookmark_text": [248,248,248],
+      "toolbar_button_icon": [248,248,248],
+
+      "ntp_link": [248,248,248],
+      "ntp_background": [0, 95, 115],
+      "tab_background_text": [140, 200, 215],
+      "tab_background_text_inactive": [140, 200, 215]
+    }, 
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

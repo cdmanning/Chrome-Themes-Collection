@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Mortal Whispers",
+  "description": "A dark, monochromatic theme featuring a skull set against a black backdrop.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [80, 90, 95],
+
+      "frame": [40, 45, 50],
+      "frame_inactive": [40, 45, 50],
+      "background_tab": [40, 45, 50],
+      "button_background": [40, 45, 50],
+      "omnibox_background": [40, 45, 50],
+
+      "tab_text": [245, 245, 245],
+      "omnibox_text": [245, 245, 245],
+      "bookmark_text":[245, 245, 245] ,
+      "toolbar_button_icon": [245, 245, 245],
+
+      "ntp_link": [160, 170, 180],
+      "ntp_background": [15, 15, 15],
+      "tab_background_text": [180, 180, 180],
+      "tab_background_text_inactive": [180, 180, 180]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

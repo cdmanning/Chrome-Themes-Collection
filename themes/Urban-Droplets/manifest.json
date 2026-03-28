@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Urban Droplets",
+  "description": "A moody, urban rain theme showcasing the soft lights and glass textures.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [65, 99, 145],
+
+      "frame": [52, 79, 117],
+      "frame_inactive": [52, 79, 117],
+      "background_tab": [52, 79, 117],
+      "button_background": [52, 79, 117],
+      "omnibox_background": [52, 79, 117],
+
+      "tab_text": [245, 245, 245],
+      "omnibox_text": [245, 245, 245],
+      "bookmark_text": [245, 245, 245],
+      "toolbar_button_icon": [245, 245, 245],
+      
+      "ntp_link": [160, 190, 230],
+      "ntp_background": [25, 35, 50],
+      "tab_background_text": [200, 210, 225],
+      "tab_background_text_inactive": [200, 210, 225]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

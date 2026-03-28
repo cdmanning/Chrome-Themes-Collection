@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Journey via Viaduct",
+  "description": "A cinematic view of a classic steam train chugging across a massive stone viaduct, over a vibrant highland valley.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [85, 105, 95],
+
+      "frame": [45, 55, 50],
+      "frame_inactive": [45, 55, 50],
+      "background_tab": [45, 55, 50],
+      "button_background": [45, 55, 50],
+      "omnibox_background": [45, 55, 50],
+
+      "tab_text": [240, 240, 235],
+      "omnibox_text": [240, 240, 235],
+      "bookmark_text": [240, 240, 235],
+      "toolbar_button_icon": [240, 240, 235],
+
+      "ntp_link": [160, 190, 170],
+      "ntp_background": [45, 55, 50],
+      "tab_background_text": [180, 190, 185],
+      "tab_background_text_inactive": [180, 190, 185]
+    }, 
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

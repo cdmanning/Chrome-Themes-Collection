@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Mountain Silhouettes",
+  "description": "A minimalist, layered landscape showcasing mountain ridges darkened by dusk's haze.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [180, 120, 51],
+
+      "frame": [20, 67, 78],    
+      "frame_inactive": [20, 67, 78],
+      "background_tab": [20, 67, 78],
+      "button_background": [20, 67, 78],
+      "omnibox_background": [20, 67, 78],
+
+      "tab_text": [245, 245, 240],      
+      "omnibox_text": [245, 245, 240],
+      "caption_text": [245, 245, 240],
+      "bookmark_text": [245, 245, 240],
+      "toolbar_button_icon": [245, 245, 240],
+
+      "ntp_link": [190, 130, 60],
+      "ntp_background": [15, 45, 55],
+      "tab_background_text": [130, 160, 170],
+      "tab_background_text_inactive": [130, 160, 170]
+    }, 
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

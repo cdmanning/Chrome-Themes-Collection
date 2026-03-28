@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Terracotta Vista",
+  "description": "A vivid arid landscape highlighting the warm shades of red and orange.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [190, 100, 75],
+
+      "frame": [85, 40, 30],
+      "frame_inactive": [85, 40, 30],
+      "background_tab": [85, 40, 30],
+      "button_background": [85, 40, 30],
+      "omnibox_background": [85, 40, 30],
+
+      "tab_text": [255, 240, 230],
+      "omnibox_text": [255, 240, 230],
+      "bookmark_text": [255, 240, 230],
+      "toolbar_button_icon": [255, 240, 230],
+
+      "ntp_link": [250, 160, 120],
+      "ntp_background": [85, 40, 30],
+      "tab_background_text": [220, 170, 150],
+      "tab_background_text_inactive": [220, 170, 150]
+    }, 
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Earth at Night",
+  "description": "A breathtaking view of Earth at night, illuminated by the glow of city lights.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [30, 50, 80],
+
+      "frame": [10, 15, 25],
+      "frame_inactive": [10, 15, 25],
+      "background_tab": [10, 15, 25],
+      "button_background": [10, 15, 25],
+      "omnibox_background": [10, 15, 25],
+
+      "tab_text": [245, 245, 245],
+      "omnibox_text": [245, 245, 245],
+      "bookmark_text": [245, 245, 245],
+      "toolbar_button_icon": [245, 245, 245],
+
+      "ntp_link": [255, 215, 100],
+      "ntp_background": [10, 15, 25],
+      "tab_background_text": [180, 200, 220],
+      "tab_background_text_inactive": [180, 200, 220]
+    }, 
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}

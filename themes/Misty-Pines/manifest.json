@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.1",
+  "name": "Misty Pines",
+  "description": "Morning light pierces through thick fog, revealing the quiet silhouettes of towering mountain pines.",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "toolbar": [215, 228, 222],
+
+      "frame": [165, 182, 175],
+      "frame_inactive": [165, 182, 175],
+      "background_tab": [165, 182, 175],
+      "button_background": [165, 182, 175],
+      "omnibox_background": [232, 242, 238],
+
+      "tab_text": [35, 55, 48],
+      "omnibox_text": [35, 55, 48],
+      "caption_text": [35, 55, 48],
+      "bookmark_text": [35, 55, 48],
+      "toolbar_button_icon": [35, 55, 48],
+
+      "ntp_link": [35, 55, 48],
+      "ntp_background": [225, 235, 230],
+      "tab_background_text": [80, 100, 90],
+      "tab_background_text_inactive": [80, 100, 90]
+    }, 
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}
