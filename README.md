@@ -12,21 +12,21 @@ A curated collection of high-quality themes for Chromium-based browsers, display
 
 | Theme Name | Description | Preview |
 | :--- | :--- | :--- |
-| **Sunset Palms** | A vibrant, high-contrast sunset theme with deep purples and oranges. | [View Theme](http://localhost:8001/#sunset-palms) |
-| **Urban Droplets** | A moody, urban rain theme showcasing the soft lights and glass textures. | [View Theme](http://localhost:8001/#urban-droplets) |
-| **Snowy Peak** | A crisp light-themed image featuring a mountain peak shrouded in mist and snow. | [View Theme](http://localhost:8001/#snowy-peak) |
-| **Neural Connections** | A tech inspired theme highlighting glowing blue nodes and connections. | [View Theme](http://localhost:8001/#neural-connections) |
-| **Pastel Skies** | A calming cityscape with soft pink horizons and purple twilight. | [View Theme](http://localhost:8001/#pastel-skies) |
-| **Yosemite Unaging** | A majestic landscape theme featuring the granite cliffs and evergreen forests of Yosemite. | [View Theme](http://localhost:8001/#yosemite-unaging) |
-| **The Lonely Spirit** | A simple pattern theme representing the spirit No-Face from Studio Ghibli's 'Spirited Away'. | [View Theme](http://localhost:8001/#the-lonely-spirit) |
-| **Mortal Whispers** | A dark, monochromatic theme featuring a skull set against a black backdrop. | [View Theme](http://localhost:8001/#mortal-whispers) |
-| **Ascending Balloons** | A serene view of hot air balloons drifting high into the sky. | [View Theme](http://localhost:8001/#ascending-balloons) |
-| **Earth at Night** | A breathtaking view of Earth at night, illuminated by the glow of city lights. | [View Theme](http://localhost:8001/#earth-at-night) |
-| **Journey via Viaduct** | A cinematic view of a classic steam train chugging across a massive stone viaduct, over a vibrant highland valley. | [View Theme](http://localhost:8001/#journey-via-viaduct) |
-| **Misty Pines** | Morning light pierces through thick fog, revealing the quiet silhouettes of towering mountain pines. | [View Theme](http://localhost:8001/#misty-pines) |
-| **Mountain Silhouettes** | A minimalist, layered landscape showcasing mountain ridges darkened by dusk's haze. | [View Theme](http://localhost:8001/#mountain-silhouettes) |
-| **Terracotta Vista** | A vivid arid landscape highlighting the warm shades of red and orange. | [View Theme](http://localhost:8001/#terracotta-vista) |
-| **The Ringed Giant** | An awe-inspiring view of Saturn and its rings adrift in the vast emptiness of space. | [View Theme](http://localhost:8001/#the-ringed-giant) |
+| **Sunset Palms** | A vibrant, high-contrast sunset theme with deep purples and oranges. | [Preview](http://localhost:8001/#sunset-palms) |
+| **Urban Droplets** | A moody, urban rain theme showcasing the soft lights and glass textures. | [Preview](http://localhost:8001/#urban-droplets) |
+| **Snowy Peak** | A crisp light-themed image featuring a mountain peak shrouded in mist and snow. | [Preview](http://localhost:8001/#snowy-peak) |
+| **Neural Connections** | A tech inspired theme highlighting glowing blue nodes and connections. | [Preview](http://localhost:8001/#neural-connections) |
+| **Pastel Skies** | A calming cityscape with soft pink horizons and purple twilight. | [Preview](http://localhost:8001/#pastel-skies) |
+| **Yosemite Unaging** | A majestic landscape theme featuring the granite cliffs and evergreen forests of Yosemite. | [Preview](http://localhost:8001/#yosemite-unaging) |
+| **The Lonely Spirit** | A simple pattern theme representing the spirit No-Face from Studio Ghibli's 'Spirited Away'. | [Preview](http://localhost:8001/#the-lonely-spirit) |
+| **Mortal Whispers** | A dark, monochromatic theme featuring a skull set against a black backdrop. | [Preview](http://localhost:8001/#mortal-whispers) |
+| **Ascending Balloons** | A serene view of hot air balloons drifting high into the sky. | [Preview](http://localhost:8001/#ascending-balloons) |
+| **Earth at Night** | A breathtaking view of Earth at night, illuminated by the glow of city lights. | [Preview](http://localhost:8001/#earth-at-night) |
+| **Journey via Viaduct** | A cinematic view of a classic steam train chugging across a massive stone viaduct, over a vibrant highland valley. | [Preview](http://localhost:8001/#journey-via-viaduct) |
+| **Misty Pines** | Morning light pierces through thick fog, revealing the quiet silhouettes of towering mountain pines. | [Preview](http://localhost:8001/#misty-pines) |
+| **Mountain Silhouettes** | A minimalist, layered landscape showcasing mountain ridges darkened by dusk's haze. | [Preview](http://localhost:8001/#mountain-silhouettes) |
+| **Terracotta Vista** | A vivid arid landscape highlighting the warm shades of red and orange. | [Preview](http://localhost:8001/#terracotta-vista) |
+| **The Ringed Giant** | An awe-inspiring view of Saturn and its rings adrift in the vast emptiness of space. | [Preview](http://localhost:8001/#the-ringed-giant) |
 
 ## 🛠️ Installation & Usage
 
