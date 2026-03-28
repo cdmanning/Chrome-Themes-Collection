@@ -44,7 +44,7 @@ There are two installation methods avalible for Chrome Themes: Via the Chrome We
 ### ⚙️ Manual Installation (Developer Mode)
 *Best for technical users.*
 
-1. **Download:** Navigate to the [**Releases**](https://cdmanning.github.io/Chrome-Themes-Collection/releases) page and download the `.zip` file for your chosen theme.
+1. **Download:** Navigate to the [**Releases**](https://github.com/cdmanning/Chrome-Themes-Collection/releases) page and download the `.zip` file for your chosen theme.
 2. **Extract:** Unzip the downloaded folder to a local directory on your machine.
 3. **Extensions Page:** Open your browser and navigate to `chrome://extensions`.
 4. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner.
