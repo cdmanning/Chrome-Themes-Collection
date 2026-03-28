@@ -49,5 +49,3 @@ There are two installation methods avalible for Chrome Themes: Via the Chrome We
 3. **Extensions Page:** Open your browser and navigate to `chrome://extensions`.
 4. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner.
 5. **Load Unpacked:** Click the **Load unpacked** button and select the extracted theme folder.
-## 📜 Assets & Licensing
-**Images:** Sourced from Unsplash under the Unsplash License (Free to use, no attribution required, but appreciated).
