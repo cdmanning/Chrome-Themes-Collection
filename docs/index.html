@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chrome Theme Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="google-site-verification" content="Lwmqi8jZg_oNXcAPVnn3zdeuxXepkJsIjX5PFynmN3E" />
+</head>
+
+<body>
+    <button class="nav-btn prev" aria-label="Previous Theme" onclick="changeTheme(-1)">&#10094;</button>
+    <button class="nav-btn next" aria-label="Next Theme" onclick="changeTheme(1)">&#10095;</button>
+    <div id="carousel">
+        <div class="preview-side" id="preview-container">
+            <div class="browser-mockup">
+                <div id="browser-bar">
+                    <div class="tab-strip">
+                        <div class="tab active">
+                            <span class="tab-text">New Tab</span>
+                            <span class="tab-close">
+                                <!--Close_Small-->
+                                <svg class="tab-close-svg" xmlns="http://www.w3.org/2000/svg" height="18px"
+                                    viewBox="0 -960 960 960" width="18px" fill="currentColor">
+                                    <path
+                                        d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="tab-new">
+                            <!--Add-->
+                            <svg class="tab-new-svg" xmlns="http://www.w3.org/2000/svg" height="20px"
+                                viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                                <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
+                            </svg>
+                        </div>
+                        <div class="window-controls">
+                            <span>
+                                <!--Remove-->
+                                <svg class="window-controls-svg" xmlns="http://www.w3.org/2000/svg" height="18px"
+                                    viewBox="0 -960 960 960" width="18px" fill="currentColor">
+                                    <path d="M200-440v-80h560v80H200Z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <!--Maximize-->
+                                <svg class="window-controls-svg" xmlns="http://www.w3.org/2000/svg" height="16px"
+                                    viewBox="0 -960 960 960" width="16px" fill="currentColor">
+                                    <path d="M120-120v-720h720v720H120Zm80-80h560v-560H200v560Z" />
+                                </svg>
+                            </span>
+                            <span>
+                                <!--Close-->
+                                <svg class="window-controls-svg" xmlns="http://www.w3.org/2000/svg" height="18px"
+                                    viewBox="0 -960 960 960" width="18px" fill="currentColor">
+                                    <path
+                                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="url-bar-container">
+                        <div class="nav-icons">
+                            <span class="icon">
+                                <!--Arrow_Back-->
+                                <svg class="nav-icon-svg" xmlns="http://www.w3.org/2000/svg" height="20px"
+                                    viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                                    <path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" />
+                                </svg>
+                            </span>
+                            <span class="icon">
+                                <!--Arrow_Forward-->
+                                <svg class="nav-icon-svg" xmlns="http://www.w3.org/2000/svg" height="20px"
+                                    viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                                    <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                                </svg>
+                            </span>
+                            <span class="icon">
+                                <!--Refresh-->
+                                <svg class="nav-icon-svg" xmlns="http://www.w3.org/2000/svg" height="20px"
+                                    viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                                    <path
+                                        d="M480-160q-134 0-227-93t-93-227q0-134 93-227t227-93q69 0 132 28.5T720-690v-110h80v280H520v-80h168q-32-56-87.5-88T480-720q-100 0-170 70t-70 170q0 100 70 170t170 70q77 0 139-44t87-116h84q-28 106-114 173t-196 67Z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="url-input">
+                            <span class="search-icon">
+                                <!--Search-->
+                                <svg class="search-icon-svg" xmlns="http://www.w3.org/2000/svg" height="19px"
+                                    viewBox="0 -960 960 960" width="19px" fill="currentColor">
+                                    <path
+                                        d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+                                </svg>
+                            </span>
+                            <span class="url-example-text">Search Google or type a URL</span>
+                        </div>
+                        <div class="user-icons">
+                            <span class="icon">
+                                <!--Account_Circle-->
+                                <svg class="user-circle-svg" xmlns="http://www.w3.org/2000/svg" height="20px"
+                                    viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                                    <path
+                                        d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Z" />
+                                </svg>
+                            </span>
+                            <span class="icon">
+                                <!--Menu-->
+                                <svg class="menu-icon-svg" xmlns="http://www.w3.org/2000/svg" height="20px"
+                                    viewBox="0 -960 960 960" width="20px" fill="currentColor">
+                                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="theme-bg-container">
+                    <div id="bg-1" class="bg-layer"></div>
+                    <div id="bg-2" class="bg-layer hidden"></div>
+                    <div class="progress-container">
+                        <div id="progress-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-side">
+            <h1 id="theme-name"></h1>
+            <div class="header-line"></div>
+            <p id="theme-desc"></p>
+            <div class="attribution-container">
+                <p class="attribution">
+                    Background By
+                    <a id="theme-attr-link" href="#" target="_blank" rel="noopener noreferrer">
+                        <span id="theme-attr"></span>
+                    </a>
+                </p>
+                <a id="store-button" href="#" target="_blank">
+                    <img src="images/chrome.png" alt="Available in the Chrome Web Store">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
