@@ -34,7 +34,7 @@
         "description": "A tech inspired theme highlighting glowing blue nodes and connections.",
         "attribution": "Conny Schneider on Unsplash",
         "attrLink": "https://unsplash.com/@choys_",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/neural-connections/omjmoekiihfmikoipgncpiiielnkggnn",
         "image": "../images/Neural-Connections/background.webp",
         "promo": "images/Neural-Connections/small-promo-tile.png",
         "colors": {
@@ -63,7 +63,7 @@
         "description": "A majestic landscape theme featuring the granite cliffs and evergreen forests of Yosemite.",
         "attribution": "Aniket Deole on Unsplash",
         "attrLink": "https://unsplash.com/@anik3t",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/yosemite-unaging/aodkacnbodlhpdgpjjonmfffagoccknc",
         "image": "../images/Yosemite-Unaging/background.webp",
         "promo": "images/Yosemite-Unaging/small-promo-tile.png",
         "colors": {
@@ -121,7 +121,7 @@
         "description": "A vibrant, high-contrast sunset theme with deep purples and oranges.",
         "attribution": "Prometey Sánchez Noskov on Unsplash",
         "attrLink": "https://unsplash.com/@soyprome",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/sunset-palms/bmpnanajiadeaajhhhpemdhdmbdphfeg",
         "image": "../images/Sunset-Palms/background.webp",
         "promo": "images/Sunset-Palms/small-promo-tile.png",
         "colors": {
@@ -150,7 +150,7 @@
         "description": "A calming cityscape with soft pink horizons and purple twilight.",
         "attribution": "Ciaran O'Brien on Unsplash",
         "attrLink": "https://unsplash.com/@icidius",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/pastel-skies/cgimknddibfcdblepoajgemgelglonnb",
         "image": "../images/Pastel-Skies/background.webp",
         "promo": "images/Pastel-Skies/small-promo-tile.png",
         "colors": {
@@ -179,7 +179,7 @@
         "description": "A crisp light-themed image featuring a mountain peak shrouded in mist and snow.",
         "attribution": "Daniel Gomez on Unsplash",
         "attrLink": "https://unsplash.com/@naturelensephotographer",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/snowy-peak/pipkdmfgfjneondbkofdoceinnojpodm",
         "image": "../images/Snowy-Peak/background.webp",
         "promo": "images/Snowy-Peak/small-promo-tile.png",
         "colors": {
@@ -208,7 +208,7 @@
         "description": "A vivid arid landscape highlighting the warm shades of red and orange.",
         "attribution": "Anna Magenta on Unsplash",
         "attrLink": "https://unsplash.com/@annamagenta82",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/terracotta-vista/mnbjmmbpkfpckinoadkbiaobbhgdmcki",
         "image": "../images/Terracotta-Vista/background.webp",
         "promo": "images/Terracotta-Vista/small-promo-tile.png",
         "colors": {
@@ -237,7 +237,7 @@
         "description": "A moody, urban rain theme showcasing the soft lights and glass textures.",
         "attribution": "Alex Knight on Unsplash",
         "attrLink": "https://unsplash.com/@agk42",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/urban-droplets/fhbhjblalaacegjoppkhbglichkipgjn",
         "image": "../images/Urban-Droplets/background.webp",
         "promo": "images/Urban-Droplets/small-promo-tile.png",
         "colors": {
@@ -385,7 +385,7 @@
         "description": "A simple pattern theme representing the spirit No-Face from Studio Ghibli's 'Spirited Away'.",
         "attribution": "MW on Unsplash",
         "attrLink": "https://unsplash.com/@cmzw",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/the-lonely-spirit/fjhmbhadmjgaljpfmpjjlmpaignboida",
         "image": "../images/The-Lonely-Spirit/background.webp",
         "promo": "images/The-Lonely-Spirit/small-promo-tile.png",
         "colors": {
@@ -414,7 +414,7 @@
         "description": "An awe-inspiring view of Saturn and its rings adrift in the vast emptiness of space.",
         "attribution": "NASA on Unsplash",
         "attrLink": "https://unsplash.com/@nasa",
-        "storeLink": "https://chromewebstore.google.com/",
+        "storeLink": "https://chromewebstore.google.com/detail/the-ringed-giant/fcfjagpidgkllcpbgagomboldckjnkja",
         "image": "../images/The-Ringed-Giant/background.webp",
         "promo": "images/The-Ringed-Giant/small-promo-tile.png",
         "colors": {
