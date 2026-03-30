@@ -9,7 +9,17 @@
 - [ ] [UI] Implement fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
 
+## 🧪 Automated Testing (Playwright)
+- [ ] [TEST] Validate JSON-to-Grid count parity.
+- [ ] [TEST] Validate dynamic CSS injection on carousel.
+- [ ] [TEST] Validate dynamic CSS injection on landing page.
+- [ ] [TEST] Validate image discovery on carousel.
+- [ ] [TEST] Validate image discovery on landing page.
+- [ ] [TEST] Validate metadata injection on carousel information panel.
+- [ ] [TEST] Validate site navigation buttons (`Theme Cards`, `Enter Theme Carousel`, `Exit`).
+
 ## ✅ Completed
 - [x] Implement dynamic border colors via `themes.json`
 - [x] Add footer section (Copyright, Github, Back-To-Top)
 - [x] Configure Carousel "Exit" button to navigate to the landing page.
+
