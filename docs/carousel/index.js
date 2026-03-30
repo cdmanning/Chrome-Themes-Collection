@@ -3,7 +3,7 @@ let currentIndex = 0;
 
 async function loadThemes() {
     try {
-        const response = await fetch('themes.json');
+        const response = await fetch('../themes.json')
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -37,7 +37,8 @@ function updateURL() {
 function preloadImages() {
     themes.forEach(theme => {
         const img = new Image();
-        img.src = theme.previewImage;
+        img.src = theme.image;
+        console.log(img.src)
     });
 }
 
@@ -121,7 +122,7 @@ function renderTheme() {
     const nextLayerNum = currentLayer === 1 ? 2 : 1;
     const currentTab = document.getElementById(`bg-${currentLayer}`);
     const nextTab = document.getElementById(`bg-${nextLayerNum}`);
-    nextTab.style.backgroundImage = `url('${theme.previewImage}')`;
+    nextTab.style.backgroundImage = `url('${theme.image}')`;
     nextTab.classList.remove('hidden');
     currentTab.classList.add('hidden');
     currentLayer = nextLayerNum;
@@ -155,6 +156,15 @@ document.addEventListener('keydown', (e) => {
         setTimeout(() => {
             isThrottled = false;
         }, 800); 
+    }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const exitButton = document.querySelector('.exit-button');
+    if (exitButton) {
+        exitButton.addEventListener('click', () => {
+            window.location.href = '../';
+        });
     }
 });
 
