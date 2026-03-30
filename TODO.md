@@ -23,3 +23,4 @@
 - [x] Add footer section (Copyright, Github, Back-To-Top)
 - [x] Configure Carousel "Exit" button to navigate to the landing page.
 - [x] Update `README.MD` and `themes.json` with published theme links.
+- [x] Add `themes` as subdomain under `starswept.dev` representing repo.
