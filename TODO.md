@@ -8,6 +8,11 @@
 - [ ] [UI] Create and add `favicon.ico` to website.
 - [ ] [UI] Implement fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
+- [ ] [SEO] Create and upload robots.txt.
+- [ ] [SEO] Create and upload sitemap.xml.
+- [ ] [SEO] Register site on `Google Search Console` and submit the `sitemap.xml`.
+- [ ] [DATA] Register site with `Google Analytics` for tracking site traffic data.
+- [ ] [INFRA] Enable `DNS Proxy` for site on Couddflare dashboard. 
 
 ## 🧪 Automated Testing (Playwright)
 - [ ] [TEST] Validate JSON-to-Grid count parity.
