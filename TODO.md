@@ -3,7 +3,6 @@
 - [ ] [ASSETS] Create modified `small-promo-tile.png` for use on theme preview cards. 
 - [ ] [ASSETS] Create updated `marquee-promo-tile.png` to maintain better image resolution.
 - [ ] [UX] Run the site through Lighthouse to make sure the page doesn't load too slowly.
-- [ ] [UI] Create and add `favicon.ico` to website.
 - [ ] [UI] Implement fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
 - [ ] [SEO] Create and upload robots.txt.
@@ -28,4 +27,5 @@
 - [x] Update `README.MD` and `themes.json` with published theme links.
 - [x] Add `themes` as subdomain under `starswept.dev` representing repo.
 - [x] [SEO] Add the og:image and description meta tags to improve site sharing.
-- [ ] [SEO] Create and add image for `Social Preview` in repo settings.
+- [x] [SEO] Create and add image for `Social Preview` in repo settings.
+- [x] [UI] Create and add `favicon.ico` to website.
