@@ -5,9 +5,7 @@
 - [ ] [UX] Run the site through Lighthouse to make sure the page doesn't load too slowly.
 - [ ] [UI] Implement fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
-- [ ] [SEO] Register site on `Google Search Console` and submit the `sitemap.xml`.
-- [ ] [DATA] Register site with `Google Analytics` for tracking site traffic data.
-
+ 
 ## 🧪 Automated Testing (Playwright)
 - [ ] [TEST] Validate JSON-to-Grid count parity.
 - [ ] [TEST] Validate dynamic CSS injection on carousel.
@@ -18,14 +16,21 @@
 - [ ] [TEST] Validate site navigation buttons (`Theme Cards`, `Enter Theme Carousel`, `Exit`).
 
 ## ✅ Completed
-- [x] Implement dynamic border colors via `themes.json`
-- [x] Add footer section (Copyright, Github, Back-To-Top)
-- [x] Configure Carousel "Exit" button to navigate to the landing page.
-- [x] Update `README.MD` and `themes.json` with published theme links.
-- [x] Add `themes` as subdomain under `starswept.dev` representing repo.
+- [x] [UI] Implement dynamic border colors via `themes.json`
+- [x] [UI] Add footer section (Copyright, Github, Back-To-Top)
+- [x] [UX] Configure Carousel "Exit" button to navigate to the landing page.
+- [x] [DATA] Update `README.MD` and `themes.json` with published theme links.
+- [x] [INFRA] Add `themes` as subdomain under `starswept.dev` representing repo.
 - [x] [SEO] Add the og:image and description meta tags to improve site sharing.
 - [x] [SEO] Create and add image for `Social Preview` in repo settings.
 - [x] [UI] Create and add `favicon.ico` to website.
 - [x] [INFRA] Enable `DNS Proxy` for site on Couddflare dashboard.
 - [x] [SEO] Create and upload robots.txt.
 - [x] [SEO] Create and upload sitemap.xml.
+- [x] [DATA] Register site with `Google Analytics` for tracking site traffic data.
+- [x] [DATA] Disable `Granular location and device data collection` by `Google Analytics` for countries in the EU.
+- [x] [DATA] Reduce `Google Analytics` data retention to the minimum 14-months.
+- [x] [PAGE] Create new `index.html` under `/privacy/` for site's privacy policy.
+- [x] [UI] Add link to privacy policy on the landing page footer. 
+- [x] [UI] Add link to landing page on the privacy policy footer. 
+- [x] [SEO] Register site on `Google Search Console` and submit the `sitemap.xml`.
