@@ -1,5 +1,5 @@
 ## 🛠️ In Progress
-- [ ] [MOBILE] Fix website styling for mobile viewports
+- [ ] [UI] Fix website styling for mobile viewports
 - [ ] [ASSETS] Create modified `small-promo-tile.png` for use on theme preview cards. 
 - [ ] [ASSETS] Create updated `marquee-promo-tile.png` to maintain better image resolution.
 - [ ] [UX] Run the site through Lighthouse to make sure the page doesn't load too slowly.
@@ -19,11 +19,11 @@
 - [x] [UI] Implement dynamic border colors via `themes.json`
 - [x] [UI] Add footer section (Copyright, Github, Back-To-Top)
 - [x] [UX] Configure Carousel "Exit" button to navigate to the landing page.
-- [x] [DATA] Update `README.MD` and `themes.json` with published theme links.
+- [x] [DOCS] Update `README.MD` and `themes.json` with published theme links.
 - [x] [INFRA] Add `themes` as subdomain under `starswept.dev` representing repo.
 - [x] [SEO] Add the og:image and description meta tags to improve site sharing.
 - [x] [SEO] Create and add image for `Social Preview` in repo settings.
-- [x] [UI] Create and add `favicon.ico` to website.
+- [x] [ASSETS] Create and add `favicon.ico` to website.
 - [x] [INFRA] Enable `DNS Proxy` for site on Couddflare dashboard.
 - [x] [SEO] Create and upload robots.txt.
 - [x] [SEO] Create and upload sitemap.xml.
@@ -34,3 +34,20 @@
 - [x] [UI] Add link to privacy policy on the landing page footer. 
 - [x] [UI] Add link to landing page on the privacy policy footer. 
 - [x] [SEO] Register site on `Google Search Console` and submit the `sitemap.xml`.
+
+---
+
+## 🏷️ Tag Glossary & Descriptions
+This list is to provide tags for the grouping of tasks that are planned. Tags ensure that changes can be made faster when in internal development as compared to managing Github issues.
+| Tag | Category | Description |
+| :--- | :--- | :--- |
+| **`[FEAT]`** | Feature | New functionality idea for the project. |
+| **`[UI]`** | Interface | Updating the visual styling and appeal of the site or project. |
+| **`[UX]`** | Experience | Improving site or project navigation or visual comprehension. |
+| **`[DATA]`** | Metadata | Updates to data pipelines and storage (JSON, XML, Database). |
+| **`[TEST]`** | Validation | Playwright test scripts and validation logic. |
+| **`[INFRA]`** | Infrastructure | DNS, Domains, Subdomains and deployments. |
+| **`[DOCS]`** | Documentation | Updates to README.md or other markdown files. |
+| **`[SEO]`** | Discovery | Search engine registration, analytics and engine files (robots.txt, sitemap.xml). |
+| **`[PAGE]`** | Site Update | Creation of new pages on the site. |
+| **`[ASSETS]`** | Media | Graphic design, icons, promotional materials, and image optimization. | 
