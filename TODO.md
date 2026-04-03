@@ -1,9 +1,9 @@
 ## 🛠️ In Progress
-- [ ] [UI] Fix website styling for mobile viewports
+- [ ] [UI] Fix website styling for mobile viewports.
 - [ ] [ASSETS] Create modified `small-promo-tile.png` for use on theme preview cards. 
 - [ ] [ASSETS] Create updated `marquee-promo-tile.png` to maintain better image resolution.
 - [ ] [UX] Run the site through Lighthouse to make sure the page doesn't load too slowly.
-- [ ] [UI] Implement fullscreen preview option with the carousel's 'maximize' button.
+- [ ] [UI] Implement a fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
  
 ## 🧪 Automated Testing (Playwright)
@@ -17,23 +17,23 @@
 
 ## ✅ Completed
 - [x] [UI] Implement dynamic border colors via `themes.json`
-- [x] [UI] Add footer section (Copyright, Github, Back-To-Top)
-- [x] [UX] Configure Carousel "Exit" button to navigate to the landing page.
+- [x] [UI] Add a footer section (Copyright, Github, Back-To-Top)
+- [x] [UX] Configure the Carousel "Exit" button to navigate to the landing page.
 - [x] [DOCS] Update `README.MD` and `themes.json` with published theme links.
-- [x] [INFRA] Add `themes` as subdomain under `starswept.dev` representing repo.
+- [x] [INFRA] Add `themes` as a subdomain under `starswept.dev` representing the repo.
 - [x] [SEO] Add the og:image and description meta tags to improve site sharing.
-- [x] [SEO] Create and add image for `Social Preview` in repo settings.
-- [x] [ASSETS] Create and add `favicon.ico` to website.
-- [x] [INFRA] Enable `DNS Proxy` for site on Couddflare dashboard.
+- [x] [SEO] Create and add an image for `Social Preview` in repo settings.
+- [x] [ASSETS] Create and add `favicon.ico` to the website.
+- [x] [INFRA] Enable `DNS Proxy` for the site on the Cloudflare dashboard.
 - [x] [SEO] Create and upload robots.txt.
 - [x] [SEO] Create and upload sitemap.xml.
-- [x] [DATA] Register site with `Google Analytics` for tracking site traffic data.
+- [x] [DATA] Register the site with `Google Analytics` for tracking site traffic data.
 - [x] [DATA] Disable `Granular location and device data collection` by `Google Analytics` for countries in the EU.
-- [x] [DATA] Reduce `Google Analytics` data retention to the minimum 14-months.
+- [x] [DATA] Reduce `Google Analytics` data retention to the minimum 14 months.
 - [x] [PAGE] Create new `index.html` under `/privacy/` for site's privacy policy.
-- [x] [UI] Add link to privacy policy on the landing page footer. 
-- [x] [UI] Add link to landing page on the privacy policy footer. 
-- [x] [SEO] Register site on `Google Search Console` and submit the `sitemap.xml`.
+- [x] [UI] Add a link to the privacy policy on the landing page footer. 
+- [x] [UI] Add a link to the landing page on the privacy policy footer. 
+- [x] [SEO] Register the site on `Google Search Console` and submit the `sitemap.xml`.
 
 ---
 
@@ -48,6 +48,6 @@ This list is to provide tags for the grouping of tasks that are planned. Tags en
 | **`[TEST]`** | Validation | Playwright test scripts and validation logic. |
 | **`[INFRA]`** | Infrastructure | DNS, Domains, Subdomains and deployments. |
 | **`[DOCS]`** | Documentation | Updates to README.md or other markdown files. |
-| **`[SEO]`** | Discovery | Search engine registration, analytics and engine files (robots.txt, sitemap.xml). |
+| **`[SEO]`** | Discovery | Search engine registration, analytics, and engine files (robots.txt, sitemap.xml). |
 | **`[PAGE]`** | Site Update | Creation of new pages on the site. |
 | **`[ASSETS]`** | Media | Graphic design, icons, promotional materials, and image optimization. | 
