@@ -5,6 +5,7 @@
 - [ ] [UX] Run the site through Lighthouse to make sure the page doesn't load too slowly.
 - [ ] [UI] Implement a fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
+- [ ] [UI] Identify manifest key for `new tab` button visibility and update for unfocused browser states.
  
 ## 🧪 Automated Testing (Playwright)
 - [ ] [TEST] Validate JSON-to-Grid count parity.
