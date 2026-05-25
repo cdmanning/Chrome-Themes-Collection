@@ -17,6 +17,6 @@ Do you have ideas to improve the **[Chrome-Themes-Collection](https://github.com
 
 ## Have a Question?
 
-* Feel free to reach out and [create an issue] with the `Question` label and we will respond within a reasonable timeframe.
+* Feel free to reach out and [create an issue](https://github.com/cdmanning/ESO-Addon-FasterCurrencyDeposits/issues) with the `Question` label and we will respond within a reasonable timeframe.
 
 Thanks again for your support!
