@@ -6,7 +6,6 @@
 - [ ] [UI] Implement a fullscreen preview option with the carousel's 'maximize' button.
 - [ ] [UI] Add image resolution information to the information panel.
 - [ ] [UI] Identify manifest key for `new tab` button visibility and update for unfocused browser states.
-- [ ] [UX] Add carousel navigation functionality to the `Previous` and `Forwards` buttons within the Chrome Browser mockup.
  
 ## 🧪 Automated Testing (Playwright)
 - [ ] [TEST] Validate JSON-to-Grid count parity.
@@ -36,6 +35,7 @@
 - [x] [UI] Add a link to the privacy policy on the landing page footer. 
 - [x] [UI] Add a link to the landing page on the privacy policy footer. 
 - [x] [SEO] Register the site on `Google Search Console` and submit the `sitemap.xml`.
+- [x] [UX] Add carousel navigation functionality to the `Previous` and `Forwards` buttons within the Chrome Browser mockup.
 
 ---
 
