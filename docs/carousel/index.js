@@ -187,6 +187,8 @@ navIcons.forEach((icon) => {
                 
             default:
                 break;
+        }
+    });
 });
 
 
