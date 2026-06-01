@@ -146,18 +146,47 @@ function changeTheme(direction) {
 }
 
 let isThrottled = false;
+function triggerThrottle() {
+    isThrottled = true;
+    setTimeout(() => {
+        isThrottled = false;
+    }, 800);
+}
+
 document.addEventListener('keydown', (e) => {
     if (isThrottled) return;
     const isNext = e.key === "ArrowRight" || e.key === "Enter";
     const isPrev = e.key === "ArrowLeft";
     if (isNext || isPrev) {
         changeTheme(isNext ? 1 : -1);
-        isThrottled = true;
-        setTimeout(() => {
-            isThrottled = false;
-        }, 800); 
+        triggerThrottle();
     }
 });
+
+const navIcons = document.querySelectorAll('.nav-icon-svg');
+navIcons.forEach((icon) => {
+    icon.addEventListener('click', (e) => {
+        if (isThrottled) return;
+        const buttonId = e.currentTarget.id
+        switch (buttonId) {
+            case 'nav-forward':
+                changeTheme(1);
+                triggerThrottle();
+                break;
+                
+            case 'nav-previous':
+                changeTheme(-1);
+                triggerThrottle();
+                break;
+                
+            case 'nav-refresh':
+                resetTheme();
+                triggerThrottle();
+                break;
+            default:
+                break;
+});
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const exitButton = document.querySelector('.exit-button');
