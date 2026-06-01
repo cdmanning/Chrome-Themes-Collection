@@ -169,6 +169,7 @@ navIcons.forEach((icon) => {
         if (isThrottled) return;
         const buttonId = e.currentTarget.id
         switch (buttonId) {
+                
             case 'nav-forward':
                 changeTheme(1);
                 triggerThrottle();
@@ -183,6 +184,7 @@ navIcons.forEach((icon) => {
                 resetTheme();
                 triggerThrottle();
                 break;
+                
             default:
                 break;
 });
