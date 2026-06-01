@@ -181,8 +181,7 @@ navIcons.forEach((icon) => {
                 break;
                 
             case 'nav-refresh':
-                resetTheme();
-                triggerThrottle();
+                window.location.reload()
                 break;
                 
             default:
