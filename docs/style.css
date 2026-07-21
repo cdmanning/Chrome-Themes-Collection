@@ -11,7 +11,6 @@ html {
     background-color: var(--bg-color);
     color: var(--text-color);
     scroll-behavior: smooth;
-    background: radial-gradient(circle at center, #161b22 0%, #0b0e14 100%);
     background-attachment: fixed;
 }
 
@@ -23,6 +22,22 @@ html {
     align-items: center;
     text-align: center;
     position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(11,14,20,0) 80%,
+            rgba(11,14,20,.4) 85%,
+            rgba(11,14,20,.7) 90%,
+            #0b0e14 100%
+        ),
+        url("images/hero-background.png") center top/cover no-repeat;
 }
 
 .hero-content {
@@ -36,18 +51,19 @@ h1 {
     margin-bottom: 6rem;
     padding: 2rem;
     color: var(--text-color);
-    text-shadow: 0 0 5px var(--text-color);
+    text-shadow: 0 0 10px var(--text-color);
+    pointer-events: none;
 }
 
 .enter-btn {
     padding: 18px 50px;
     border-radius: 16px;
-    border: 2px solid var(--text-color);
+    border: 3px solid var(--text-color);
     color: var(--text-color);
     text-decoration: none;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: 3px;
     background: rgba(255, 255, 255, 0.05);
 }
