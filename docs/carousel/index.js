@@ -154,6 +154,10 @@ function triggerThrottle() {
 }
 
 document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        window.location.href = '../';
+    }
+
     if (isThrottled) return;
     const isNext = e.key === "ArrowRight" || e.key === "Enter";
     const isPrev = e.key === "ArrowLeft";
