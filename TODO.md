@@ -36,6 +36,8 @@
 - [x] [UI] Add a link to the landing page on the privacy policy footer. 
 - [x] [SEO] Register the site on `Google Search Console` and submit the `sitemap.xml`.
 - [x] [UX] Add carousel navigation functionality to the `Previous` and `Forwards` buttons within the Chrome Browser mockup.
+- [x] [UI] Update github pages hero section to include background image.
+- [x] [UX] Add event listener to carousel for the "escape" key to allow returning to the homepage.
 
 ---
 
