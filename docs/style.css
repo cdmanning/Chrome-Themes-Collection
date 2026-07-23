@@ -37,7 +37,7 @@ html {
             rgba(11,14,20,.7) 90%,
             #0b0e14 100%
         ),
-        url("images/hero-background.png") center top/cover no-repeat;
+        url("images/hero-background.webp") center top/cover no-repeat;
 }
 
 .hero-content {
